@@ -16,8 +16,7 @@ const char* ssid = "Wokwi-GUEST";
 const char* password = "";
 
 const char* server = "http://api.thingspeak.com/update";
-String apiKey = "YOUR_API_KEY"; // Replace with your ThingSpeak Write API Key
-
+String apiKey = "5VKY33TP48RXQCKI";
 void setup() {
   Serial.begin(115200);
   Wire.begin();
